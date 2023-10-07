@@ -1,18 +1,25 @@
 .container {
-    background-color: aquamarine;
-    height: 500px;
-    width: 500px;
+    background-color: #101111;
+    /* height: 500px;
+    width: 500px; */
     display: grid;
-    grid-template-rows: repeat(9, 1fr);
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 25% 25% 25% 25%;
     row-gap: 15px;
     column-gap: 15px;
+    padding: 65px;
+    border: 2px solid blue;
+    margin-bottom: 15px;
+
+
 
 }
 
 .b1 {
-background-color: #e2402b;
+background-color: #f52308;
 height: 122px;
 width: 122px;
 text-align: center;
+color: antiquewhite;
+line-height: 70px;
+font-size: 20px;
 }
