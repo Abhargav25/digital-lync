@@ -1,0 +1,16 @@
+.container{
+    height: 522px;
+    border: 20px;
+    margin: 30px;
+    display: flex;
+    flex: 20px;
+}
+
+  #box{
+    width: 250px;
+    height: 300px;
+    margin: 40pxpx;
+    border: 4px;
+
+
+  }
