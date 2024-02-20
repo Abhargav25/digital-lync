@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        #invoice {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #invoice h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        #invoice .details {
+            margin-bottom: 20px;
+        }
+
+        #invoice .client {
+            padding: 10px;
+            background: blue;
+            color: aliceblue;
+
+        }
+
+        #invoice .items {
+            margin: 40px 0;
+        }
+
+        #invoice .items table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        #invoice .items table th, #invoice .items table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        #invoice .total {
+            text-align: right;
+        }
+
+        #invoice .thank-you {
+            margin-top: 20px;
+            text-align: center;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="invoice">
+        <h2>Invoice</h2>
+
+        <div class="details">
+            <div class="client">
+                <p><strong>Client:</strong>Bhargav adulapuram</p>
+                <p><strong>Email:</strong> bhargavadulapuram98@gmail.com.com</p>
+                <p><strong>Address:</strong> Hyderabad</p>
+            </div>
+            <p><strong>Invoice Number:</strong> INV-2024001</p>
+            <p><strong>Date:</strong> February 20, 2024</p>
+        </div>
+
+        <div class="items">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>Quantity</th>
+                        <th>Unit Price</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Item 1</td>
+                        <td>2</td>
+                        <td>50.00</td>
+                        <td>100.00</td>
+                    </tr>
+                    <tr>
+                        <td>Item 2</td>
+                        <td>1</td>
+                        <td>75.00</td>
+                        <td>75.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="total">
+            <p><strong>Grand Total:</strong> 175.00</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
