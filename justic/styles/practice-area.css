@@ -1,0 +1,29 @@
+#bank-container {
+    background-color: rgb(55,55,63);
+   padding: 25px;
+   display: flex;
+   justify-content: space-around;
+}
+.bank-icon {
+    background-color: rgb(95,95,101);
+    color: #fff;
+    display: inline;
+    border-radius: 15px;
+    padding: 15px;
+    line-height: 5px;
+}#list-container {
+    display: flex;
+    background-color: rgb(55,55,63);
+    justify-content: space-around;
+    padding: 60px 80px;
+    margin: 30px 40px;
+}
+#list-container li {
+    color:  rgb(180,156,115);
+    list-style: none;
+    line-height: 35px;
+}
+#list-container h3{
+    color: #fff;
+    margin-top: 55px;
+}
