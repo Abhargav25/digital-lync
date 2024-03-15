@@ -10,6 +10,7 @@
     <script>
 
         // 1 method  we dont need give brackets just need to give "" after this give ;
+        //  syntax = var variableName = 'variable value';
 
         var mobileName1 = 'qqq';
 
@@ -22,6 +23,7 @@
         console.log(mobileName1);
 
         // 2 method array we need to give values in ['value1', 'value2',   'valuen'];
+        // syntax = var variableName = ['value1', 'value2', 'value3',......'valueN']
         
         var mobileNames = ['xiaomi 14','xiaomi mi x3','poco c55','realme narzo n55'];
 
@@ -32,7 +34,7 @@
         console.log(mobileNames);
 
         // 3 method object we need to give values in { variableName: 'value', .......for features: { variableName: 'description',},};
-
+               
         var mobileDetails = {
             name: 'Iphone',
             maximumPrice: '59999',
@@ -49,10 +51,32 @@
             },
         };
         
-
         console.log(mobileDetails.features); 
 
 
+        // function
+
+        function displayNameAndCityAndAge(name,city,Age){
+            return 'Name: ' + name +  'City:' + city + 'Age:' + Age;
+        }
+
+        var result = displayNameAndCityAndAge('bhargav', 'hyderaad', '22');
+        console.log(result);
+        
+        var result2 = displayNameAndCityAndAge('sai', 'pune','23');
+        console.log(result2);
+
+        var result3 = displayNameAndCityAndAge('nikil', 'delhi','33');
+        console.log(result3)
+
+
+        function getUserInfo(user){
+        return ' Firstname: ' + user.firstName + 'Lastname:' + user.lastName + 'City:' + user.city;
+        }
+
+        var result4 = getUserInfo({firstName: 'bhargav', lastName: 'adulapuram' , city: 'hyderabad'});
+        console.log(result4);
+    
  
 
 
